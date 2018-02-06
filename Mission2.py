@@ -12,4 +12,4 @@ for i in range(0, isize[0]):
         somme+= img[i][j]
 nbPixel = img.size #nombre de pixels dans l'image
 gasDensity = somme/(nbPixel*255) #la densitée de gaz est la quantité totale de gaz divisée par l'aire (le nb de pixels) divisé par 255 car 255=100%
-print("densité: %f %%" %gasDensity)
+print("densité: %f" %gasDensity)
